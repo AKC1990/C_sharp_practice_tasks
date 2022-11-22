@@ -1,0 +1,15 @@
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\bin\Debug\net6.0\Task02.exe
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\bin\Debug\net6.0\Task02.deps.json
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\bin\Debug\net6.0\Task02.runtimeconfig.json
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\bin\Debug\net6.0\Task02.dll
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\bin\Debug\net6.0\Task02.pdb
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.csproj.AssemblyReference.cache
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.GeneratedMSBuildEditorConfig.editorconfig
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.AssemblyInfoInputs.cache
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.AssemblyInfo.cs
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.csproj.CoreCompileInputs.cache
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.dll
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\refint\Task02.dll
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.pdb
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\Task02.genruntimeconfig.cache
+F:\GeekBrains\C#\С_sharp_practice_tasks\Task02\obj\Debug\net6.0\ref\Task02.dll

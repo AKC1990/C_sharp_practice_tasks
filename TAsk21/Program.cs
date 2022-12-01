@@ -44,6 +44,7 @@ int ConvertArrayToInt(int[] array)
     return finalScore;
 }
 
+//Метод, проверяющий числа на полиндром
 bool CheckToPolyndrom(int numberA, int numberB)
 {
     return numberA == numberB;

@@ -2,31 +2,40 @@
 
 int[,] CreateMatrix(int row, int col)
 {
-    return new int [row, col];
+    return new int[row, col];
+}
+
+bool CheckCountOfRows(int rows, int columns)
+{
+    return rows == columns;
 }
 
 int[,] FillMatrix(int[,] matrix)
 {
+    int min = 1;
+    int max = 50;
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i,j] = new Random().Next(1, 50);
+            matrix[i, j] = new Random().Next(min, max);
         }
     }
     return matrix;
-} 
+}
 
-void PrintMatrix(int[,] matrix)
+string PrintMatrix(int[,] matrix)
 {
+    string result = string.Empty;
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write($"{matrix[i, j], 3}");
+            result += $"{matrix[i, j],3}";
         }
-    Console.WriteLine();
+        result += "\n";
     }
+    return result;
 }
 
 int[,] ReplaceElementsOfMatrix(int[,] matrix)
@@ -36,16 +45,19 @@ int[,] ReplaceElementsOfMatrix(int[,] matrix)
     {
         for (int j = 0; j < newMatrix.GetLength(1); j++)
         {
-            newMatrix[i,j] = matrix[j, i];
+            newMatrix[i, j] = matrix[j, i];
         }
     }
     return newMatrix;
 }
 
-int rows = 6;
-int columns = 6;
-int [,] myMatrix = CreateMatrix(rows, columns);
-PrintMatrix(FillMatrix(myMatrix));
-Console.WriteLine();
-PrintMatrix(ReplaceElementsOfMatrix(myMatrix));
-
+int rows = 4;
+int columns = 5;
+if (CheckCountOfRows(rows, columns))
+{
+    int[,] myMatrix = CreateMatrix(rows, columns);
+    Console.WriteLine(PrintMatrix(FillMatrix(myMatrix)));
+    Console.WriteLine();
+    Console.WriteLine(PrintMatrix(ReplaceElementsOfMatrix(myMatrix)));
+}
+else System.Console.WriteLine("incorrect count of rows");
